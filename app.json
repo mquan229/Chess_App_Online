@@ -1,27 +1,33 @@
 {
   "expo": {
-    "name": "StickerSmash",
-    "slug": "StickerSmash",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+  "name": "StickerSmash", // or "Chess" depending on your choice
+  "slug": "StickerSmash", // or "Chess" depending on your choice
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "icon": "./assets/icon.png",
+  "userInterfaceStyle": "light",
+  "splash": {
+  "image": "./assets/splash.png",
+  "resizeMode": "contain",
+  "backgroundColor": "#ffffff"
+  },
+  "updates": { // Include this section if you need it
+  "fallbackToCacheTimeout": 0
+  },
+  "assetBundlePatterns": ["**/*"], // Include this section if you need it
+  "ios": {
+  "supportsTablet": true
+  },
+  "android": {
+  "adaptiveIcon": {
+  "foregroundImage": "./assets/adaptive-icon.png",
+  "backgroundColor": "#ffffff" // or "#FFFFFF" depending on your preference
   }
-}
+  },
+  "web": {
+  "favicon": "./assets/favicon.png"
+  }
+  }
+  }
+  
+  

@@ -1,13 +1,32 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
+<<<<<<< HEAD
 # dependencies
 node_modules/
+=======
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
+>>>>>>> Incoming
+
+<<<<<<< HEAD
 # Expo
 .expo/
 dist/
 web-build/
+=======
+# Runtime data
+pids
+*.pid
+*.seed
+*.log
 
+>>>>>>> Incoming
+
+<<<<<<< HEAD
 # Native
 *.orig.*
 *.jks
@@ -15,21 +34,68 @@ web-build/
 *.p12
 *.key
 *.mobileprovision
+=======
+# Directory used by npm for globally installed node modules
+node_modules
 
+>>>>>>> Incoming
+
+<<<<<<< HEAD
 # Metro
 .metro-health-check*
+=======
+# Yarn Integrity file
+.yarn-integrity
 
+>>>>>>> Incoming
+
+<<<<<<< HEAD
 # debug
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+=======
+# Environment secrets
+.env
+.env.local
+.env.*.local
 
+>>>>>>> Incoming
+
+<<<<<<< HEAD
 # macOS
+=======
+# MacOS
+
+>>>>>>> Incoming
 .DS_Store
 *.pem
 
+<<<<<<< HEAD
 # local env files
 .env*.local
+=======
+# Windows
+Thumbs.db
 
+>>>>>>> Incoming
+
+<<<<<<< HEAD
 # typescript
 *.tsbuildinfo
+=======
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Expo OTA update
+.expo/
+.expo-shared/
+
+# Turtle
+turtle-build/
+  
+>>>>>>> Incoming
