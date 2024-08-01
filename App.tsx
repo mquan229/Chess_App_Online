@@ -1,9 +1,9 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import * as React from "react";
+import HomeScreen from "./screen/HomeScreen";
 import Login from "./screen/LoginScreen";
 import Signup from "./screen/SignupScreen";
-
 // Tạo Stack Navigator
 const Stack = createNativeStackNavigator();
 
@@ -21,6 +21,10 @@ const App = () => {
           <Stack.Screen
             name="Signup"
             component={Signup}
+          />
+          <Stack.Screen
+            name="Home"
+            component={HomeScreen}
           />
         </Stack.Navigator>
       ) : null}
